@@ -4,32 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitation Letter</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Invitation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="envelope-wrapper">
-            <div class="envelope">
-                <div class="letter">
-                    <div class="text">
-                        <strong>Beloved Johnica</strong>,
-                            <p>I, Allan, humbly invite thee to join me in a celebration of our shared affection on the day of Valentine. A day when love is honoured and cherished.</p>
-                            <p>In the spirit of the great Bard, whose eloquent words have captured the very essence of love, I extend this invitation. Let us share a moment of joy, where the only feast is the happiness we find in each other's presence.</p>
-                            <p>So, I ask thee, will thou accompany me on this day dedicated to love?</p>
-                            <p>With love and respect,</p>
-                            <p>Allan</p>
-                    </div>
-                </div>
-            </div>
-            <div class="heart"></div>
+    <div class="wrapper">
+        <i class="fa-solid fa-circle-question"></i>
+        <h2 class="question">Will you be my Valentine?</h2>
+        <div class="btn-group">
+            <button class="yes-btn">Yes</button>
+            <button class="no-btn">No</button>
         </div>
     </div>
-    <script>
-        const envelope = document.querySelector('.envelope-wrapper');
-        envelope.addEventListener('click', () => {
-            envelope.classList.toggle('flap');
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
